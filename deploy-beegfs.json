@@ -191,7 +191,7 @@
     "image": "[parameters('VMImage')]",
     "beeGFSNodeSettings": {
       "vnetRG": "[parameters('RGvnetName')]",
-      "vnetName": "beegfs-vnet",
+      "vnetName": "VNET_EDA",
       "subnetName": "beegfs-subnet",
       "MasterName": "[parameters('masterName')]",
       "nodeType": "[parameters('nodeType')]",
